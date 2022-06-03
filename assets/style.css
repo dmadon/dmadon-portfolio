@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #203864;
+    --accent-color-1: #A4041F;
+    --accent-color-2: #B2DE82;
+    --accent-color-3: #FFE699;
+    --accent-color-4: #fff;
+    
+}
+
+
+@font-face {
+    font-family: ModernLoveGrunge;
+    src: url('fontModernLoveGrunge.ttf') format("truetype");
+}
+
+
+
+
+h1{
+    font-family: ModernLoveGrunge;
+    color: var(--accent-color-4);
+    font-size: 42px;
+
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    height: 100px;
+    align-items: center;
+    padding-left: 20px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-end;
+}
+.header .nav a{
+    font-family: ModernLoveGrunge
+    var(--accent-color-4);
+}
