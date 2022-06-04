@@ -9,22 +9,39 @@
     font-family: ModernLoveGrunge;
     src: url('fontModernLoveGrunge.ttf') format("truetype");
 }
+@font-face {
+    font-family: Candara;
+    src: url('Candara.ttf') format("truetype");
+}
 h1{
     font-family: ModernLoveGrunge;
     color: var(--accent-color-4);
     font-size: 48px;
-
+}
+h2{
+    font-family: ModernLoveGrunge;
+    color: var(--primary-color);
+    font-size: 42px;
+}
+p{
+    font-family: Candara;
+    font-size: 30px;
+    color: var(--primary-color);
+    line-height: 1.5;
+    padding: 20px 0;
 }
 .header{
     display: flex;
     flex-wrap: wrap;
     background-color: var(--primary-color);
-    height: 100px;
     align-items: center;
-    padding-left: 20px;
     justify-content: space-between;
     position: sticky;
     z-index: 9;
+    border-bottom: 10px solid var(--accent-color-2);
+}
+section{
+    padding: 20px;
 }
 .nav{
     display: flex;
@@ -41,4 +58,17 @@ a{
 a:hover{
     color: var(--accent-color-2);
     text-shadow: 5px 5px 2px rgb(0 0 0);  
+}
+.section-title{    
+    border-left: 10px solid var(--accent-color-2);
+    width: 50%;
+    margin:0 0 20px;
+    padding: 20px 0 20px 20px;
+}
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    justify-content: space-between;
 }
