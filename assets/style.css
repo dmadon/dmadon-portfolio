@@ -20,8 +20,9 @@ h1{
 }
 h2{
     font-family: ModernLoveGrunge;
-    color: var(--primary-color);
-    font-size: 42px;
+    color: var(--accent-color-2);
+    font-size: 48px;
+    text-shadow: 5px 2px 2px rgb(0 0 0);
 }
 p{
     font-family: Candara;
@@ -30,23 +31,19 @@ p{
     line-height: 1.5;
     padding: 20px 0;
 }
-.header{
+section{
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--primary-color);
+    padding: 20px;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    z-index: 9;
-    border-bottom: 10px solid var(--accent-color-2);
 }
-section{
-    padding: 20px;
-}
-.nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+.section-title{    
+    border-bottom: 10px solid var(--primary-color);
+    width: 33%;
+    margin:0 auto 20px;
+    padding: 20px 0;
+    text-align: center;
 }
 a{
     font-family: ModernLoveGrunge;
@@ -59,16 +56,21 @@ a:hover{
     color: var(--accent-color-2);
     text-shadow: 5px 5px 2px rgb(0 0 0);  
 }
-.section-title{    
-    border-left: 10px solid var(--accent-color-2);
-    width: 50%;
-    margin:0 0 20px;
-    padding: 20px 0 20px 20px;
+.header{
+    background-color: var(--primary-color);
+    position: -webkit-sticky ;
+    position: sticky;
+    top:0;
+    z-index: 9;
+    border-bottom: 10px solid var(--accent-color-2);
 }
-.about-me{
+.nav{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    
-    justify-content: space-between;
+    justify-content: flex-end;
 }
+#headshot{
+    margin: 0 auto;
+}
+
+
