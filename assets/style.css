@@ -32,10 +32,18 @@ h2{
 }
 h3{
     font-family: ModernLoveGrunge;
-    color: var(--accent-color-2);
     font-size: 50px;
     text-shadow: 3px 1.5px 1.5px rgb(0 0 0);
 }
+#about-me h3{
+    color: var(--accent-color-2);
+}
+
+#projects h3{
+    color: var(--accent-color-4);
+}
+
+
 p{
     padding: 20px 0;
 }
@@ -64,6 +72,7 @@ section{
     margin:0 auto 20px;
     padding: 20px 0;
     text-align: center;
+
 }
 
 a{
@@ -96,7 +105,34 @@ a:hover{
 #headshot{
     margin: 0 auto;
 }
-.projects{
+#projects{
     background-color: var(--accent-color-2);
+}
+div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.main-project{
+    margin: 0 auto;
+    
+}
+.secondary-project{
+    width:50%;
+}
+.primary-article-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 auto;
+    
+}
+.secondary-articles-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+article img{
+    margin:20px auto;
 }
 
