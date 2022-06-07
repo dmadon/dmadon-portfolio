@@ -34,6 +34,7 @@ h3{
     font-family: ModernLoveGrunge;
     font-size: 50px;
     text-shadow: 3px 1.5px 1.5px rgb(0 0 0);
+    color:var(--primary-color);
 }
 #about-me h3{
     color: var(--accent-color-2);
@@ -83,7 +84,7 @@ section{
     margin: 30px 30px 5px 30px;
     text-decoration: none;
 }
-a:hover{
+.nav a:hover{
     color: var(--accent-color-2);
     text-shadow: 5px 5px 2px rgb(0 0 0);  
 }
@@ -118,7 +119,7 @@ div{
     justify-content: center;
 }
    
-.primary-project-article{
+.primary-project-article, #contact{
     display: block;
     flex-wrap: wrap;
     justify-content: center;
@@ -138,7 +139,35 @@ div{
     padding: 30px 0;
     margin:0;
 }
+#contact{
+    text-align: center;
+}
 
 article{
     margin:30px 0;
 }
+.contact-info-line{
+    width: 1100px;
+    margin: 30px auto;
+    
+}
+.padding-right{
+    padding-right: 30px;
+}
+.contact-info-line a{
+    text-decoration: underline solid var(--primary-color) 2px;
+    font-family:ModernLoveGrunge;
+    font-size: 50px;
+    color: var(--primary-color);
+}
+.contact-info-line a:hover{
+    color: var(--accent-color-2);
+    
+}
+.contact-info-line h3{
+    text-shadow: none;
+}
+h4{
+    border: var(--accent-color-1);
+}
+
