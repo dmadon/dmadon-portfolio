@@ -97,6 +97,10 @@ article{
 #about-me h2, #about-me h3{
     color: var(--accent-color-2);
 }
+#about-me ul {
+    text-indent: 0;
+    padding-left: 50px;
+ }
 #headshot{
     margin: 0 auto;
 }
@@ -165,6 +169,56 @@ article{
 }
 
 
+/*MEDIA QUERIES FOR SCALABILITY*/
 
+/*MEDIA QUERY FOR SCREEN SIZES 980PX WIDE OR SMALLER*/
+
+@media screen and (max-width: 980px){
+
+.header{
+    position: static;
+    display: block;
+    text-align: center;
+}
+.nav{
+    display: block;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+h1{
+    font-size: 60px;
+}
+.nav a{
+    font-size: 30px;
+    margin: 0 30px;
+}
+h2{
+    font-size: 50px;
+}
+article img{
+    width: 100%;
+}
+.secondary-projects{
+    width: 100%;
+    justify-content: space-between;
+}
+.secondary-projects a{
+    width: 45%;
+    margin:0;
+}
+.secondary-project-article h3{
+    font-size: 40px;
+}
+.contact-info-line{
+    width: 80%;
+    justify-content: center;
+}
+.contact-info-line h3, .contact-info-line a{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+
+}
 
 
