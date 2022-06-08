@@ -1,3 +1,5 @@
+/* SET VARIABLES FOR USE THROUGHOUT STYLESHEET */
+
 :root{
     --primary-color: #203864;
     --accent-color-1: #A4041F;
@@ -5,6 +7,9 @@
     --accent-color-3: #FFE699;
     --accent-color-4: #fff;
 }
+
+/*ACTIVATE FONT FILES*/
+
 @font-face {
     font-family: ModernLoveGrunge;
     src: url('fontModernLoveGrunge.ttf') format("truetype");
@@ -13,6 +18,9 @@
     font-family: Candara;
     src: url('Candara.ttf') format("truetype");
 }
+
+/*DEFAULT SELECTOR STYLES*/
+
 h1{
     font-family: ModernLoveGrunge;
     color: var(--accent-color-4);
@@ -24,41 +32,17 @@ h2{
     font-size: 80px;
     text-shadow: 5px 2px 2px rgb(0 0 0);
 }
-#about-me h2{
-    color: var(--accent-color-2);
-}
-#projects h2{
-    color: var(--accent-color-4);
-}
 h3{
     font-family: ModernLoveGrunge;
     font-size: 50px;
     text-shadow: 3px 1.5px 1.5px rgb(0 0 0);
     color:var(--primary-color);
 }
-#about-me h3{
-    color: var(--accent-color-2);
+h4{
+    border: var(--accent-color-1);
 }
-
-#projects h3{
-    color: var(--accent-color-4);
-}
-
-
 p{
     padding: 20px 0;
-}
-.list, .sub-list, li, p{
-    font-family: Candara;
-    font-size: 30px;
-    color: var(--primary-color);
-    line-height: 1.5;
-}
-.list, .sub-list{
-    text-indent: 20px;
-}
-.sub-list li{
-    list-style: none;
 }
 section{
     display: flex;
@@ -67,27 +51,17 @@ section{
     align-items: center;
     justify-content: space-between;
 }
-.section-title{    
-    border-bottom: 10px solid var(--primary-color);
-    width: 33%;
-    margin:0 auto 20px;
-    padding: 20px 0;
-    text-align: center;
-    display: block;
-
+div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+article{
+    margin:30px 0;
 }
 
-.nav a{
-    font-family: ModernLoveGrunge;
-    font-size: 50px;
-    color:var(--accent-color-4);
-    margin: 30px 30px 5px 30px;
-    text-decoration: none;
-}
-.nav a:hover{
-    color: var(--accent-color-2);
-    text-shadow: 5px 5px 2px rgb(0 0 0);  
-}
+/* STYLES BY CLASS AND ID, IN ORDER OF APPEARANCE ON PAGE (FOR THE MOST PART)*/
+
 .header{
     background-color: var(--primary-color);
     position: -webkit-sticky ;
@@ -101,73 +75,96 @@ section{
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-
+.nav a{
+    font-family: ModernLoveGrunge;
+    font-size: 50px;
+    color:var(--accent-color-4);
+    margin: 30px 30px 5px 30px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: var(--accent-color-2);
+    text-shadow: 5px 5px 2px rgb(0 0 0);  
+}
+.section-title{    
+    border-bottom: 10px solid var(--primary-color);
+    width: 33%;
+    margin:0 auto 20px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+}
+#about-me h2, #about-me h3{
+    color: var(--accent-color-2);
+}
 #headshot{
     margin: 0 auto;
+}
+.list, .sub-list, li, p{
+    font-family: Candara;
+    font-size: 30px;
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+.list, .sub-list{
+    text-indent: 20px;
+}
+.sub-list li{
+    list-style: none;
 }
 #projects{
     background-color: var(--accent-color-2);
     flex-direction: column;
     justify-content: center;
 }
-#projects a{
-    text-decoration: none;
-}
-div{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-   
-.primary-project-article, #contact{
-    display: block;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:0 auto;
-    
-}
-.secondary-projects{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1100px;
-    justify-content: space-between;
-    
+#projects h2, #projects h3{
+    color: var(--accent-color-4);
 }
 #projects h3{
     text-align: center;
     background-color: var(--primary-color);
     padding: 30px 0;
-    margin:0;
+}
+#projects a{
+    text-decoration: none;
+}
+.primary-project-article, #contact{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0 auto;
+}
+.secondary-projects{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    justify-content: space-between; 
 }
 #contact{
     text-align: center;
 }
-
-article{
-    margin:30px 0;
-}
 .contact-info-line{
     width: 1100px;
-    margin: 30px auto;
-    
+    margin: 30px auto; 
 }
-.padding-right{
-    padding-right: 30px;
+.contact-info-line h3{
+    text-shadow: none;
 }
 .contact-info-line a{
-    text-decoration: underline solid var(--primary-color) 2px;
+    text-decoration: underline solid var(--primary-color) 4px;
+    text-underline-offset: 10px;
     font-family:ModernLoveGrunge;
     font-size: 50px;
     color: var(--primary-color);
 }
 .contact-info-line a:hover{
-    color: var(--accent-color-2);
-    
+    color: var(--accent-color-2); 
 }
-.contact-info-line h3{
-    text-shadow: none;
+.padding-right{
+    padding-right: 30px;
 }
-h4{
-    border: var(--accent-color-1);
-}
+
+
+
+
 
