@@ -333,3 +333,80 @@ article h3{
     font-size: 25px;
 }
 }
+
+/*MEDIA QUERY FOR SCREEN SIZES 575PX WIDE OR SMALLER*/
+
+@media screen and (max-width: 575px){
+
+    h1{
+        font-size: 40px;
+    }
+    .nav a{
+        font-size: 20px;
+        margin: 0 30px;
+    }
+    .section-title{
+        font-size: 30px;
+        border-bottom: 5px solid var(--primary-color);
+    }
+    p, ul, li{
+        font-size: 20px;
+    }
+    .secondary-projects{
+        justify-content: space-between;
+    }
+    .contact-info-line{
+        width: 80%;
+        justify-content: center;
+    }
+    .contact-info-line h3, .contact-info-line a{
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    article h3{
+        font-size: 20px;
+    }
+    }
+    
+/*MEDIA QUERY FOR SCREEN SIZES 475PX WIDE OR SMALLER*/
+
+@media screen and (max-width: 475px){
+
+h1{
+    font-size: 30px;
+}
+.nav a{
+    font-size: 20px;
+    margin: 0 30px;
+}
+#headshot{
+    width: 40%;
+}
+.section-title{
+    width: 75%; 
+}
+p, ul, li{
+    font-size: 15px;
+}
+.secondary-projects{
+    justify-content: space-between;
+}
+.contact-info-line{
+    width: 80%;
+    justify-content: center;
+}
+.contact-info-line h3, .contact-info-line a{
+    font-size: 20px;
+    margin: 15px 0;  
+}
+.contact-info-line a{
+    text-underline-offset: 2px;
+}
+.contact-info-line h3{
+    padding-right: 10px;
+}
+#projects h3{
+    font-size: 15px;
+    padding: 10px 0;
+}
+}
