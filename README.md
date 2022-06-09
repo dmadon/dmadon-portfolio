@@ -22,3 +22,4 @@ This portfolio page will provide you with some important information about me:
 
 ## Preview
 
+![image](https://user-images.githubusercontent.com/99852346/172752203-8be51a6c-0cbf-4484-acc6-f900c48b753f.png)
