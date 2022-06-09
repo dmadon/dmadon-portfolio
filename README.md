@@ -20,6 +20,13 @@ This portfolio page will provide you with some important information about me:
 * I put all my styling in a style.css file and added comments in the file to help organize it
 * After testing all my links for accuracy, I added a whole lot of media queries to make sure my page will look good on all devices
 
+##  Links
+
+View the deployed application: https://dmadon.github.io/dmadon-portfolio/
+
+View the repository: https://github.com/dmadon/dmadon-portfolio
+
+
 ## Preview
 
 ![image](https://user-images.githubusercontent.com/99852346/172752203-8be51a6c-0cbf-4484-acc6-f900c48b753f.png)
