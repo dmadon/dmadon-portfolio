@@ -22,3 +22,4 @@ This portfolio page will provide you with some important information about me:
 
 ## Preview
 
+Deanna Portfolio Screenshot.png
