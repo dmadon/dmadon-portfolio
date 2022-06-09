@@ -1,52 +1,24 @@
- # 02 Advanced CSS: Portfolio
+# Deanna Madon Portfolio Page
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+Hello! I am excited to present this portfolio page to you. I am a job-seeker that is ready for a new challenge in the field of software development. My years of work experience have taught me the importance of collaboration, communication and time management. I have a strong work ethic and I take pride in doing quality work. 
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: at many companies, having several deployed projects is a minimum requirement to receive an initial interview. 
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
-**Note**: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+## Description
 
-Let’s look at what a user story written from the perspective of a hiring manager might look like. As you might remember, we follow the AS AN / I WANT / SO THAT format.
+This portfolio page will provide you with some important information about me:
 
-## User Story
+* Information about my work ethic and core beliefs
+* Links to a few of my projects, with room for more in the future (in the meantime, enjoy those sweet pics of the Starship Enterprise!)
+* My contact information
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+## Process
 
-## Acceptance Criteria
+* I began this page by creating a wireframe for the HTML
+* Then, I created a new local repository on my computer and a remote GitHub repository to store my project
+* Once my repository was up and running, I began to layout the structure of my page in my index.html file
+* I put all my styling in a style.css file and added comments in the file to help organize it
+* After testing all my links for accuracy, I added a whole lot of media queries to make sure my page will look good on all devices
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+## Preview
 
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
