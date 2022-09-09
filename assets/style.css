@@ -137,6 +137,7 @@ article{
     flex-wrap: wrap;
     justify-content: center;
     margin:0 auto;
+    width:80%;
 }
 article img{
     width: 100%;
@@ -144,8 +145,12 @@ article img{
 .secondary-projects{
     display: flex;
     flex-wrap: wrap;
-    width: 1100px;
+    width: 80%;
     justify-content: space-between; 
+}
+.secondary-project-article{
+    width:180;
+    height: 180;
 }
 #contact{
     text-align: center;
